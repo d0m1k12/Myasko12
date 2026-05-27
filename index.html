@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechShop - Магазин гаджетів</title>
+    <title>TechShop — Магазин гаджетів</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -12,62 +17,49 @@
         <h1>TechShop</h1>
         <nav>
             <ul>
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Товари</a></li>
-                <li><a href="#">Про нас</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Кошик</a></li>
+                <li><a href="#" class="btn">Головна</a></li>
+                <li><a href="#" class="btn">Товари</a></li>
+                <li><a href="#" class="btn">Про нас</a></li>
+                <li><a href="#" class="btn">Контакти</a></li>
+                <li><a href="#" class="btn">Кошик</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="hero">
             <h2>Новинки 2025</h2>
-            <p>Відкрий майбутнє технологій вже сьогодні.</p>
-            <a href="#">Дізнатися більше</a>
+            <p>Відкрий майбутнє технологій вже сьогодні. Найкращі гаджети за вигідними цінами.</p>
+            <a href="#" class="btn">Дізнатися більше</a>
         </section>
 
         <section>
             <h2>Популярні товари</h2>
             
-            <article>
-                <img src="assets/img/айфон.webp" alt="iPhone 16 Pro">
-                <h3>iPhone 16 Pro</h3>
-                <p>Найкраща камера у світі смартфонів.</p>
-                <p>Ціна: 55 000 грн</p>
-                <button>Купити</button>
-            </article>
+            <div class="products-grid">
+                <article>
+                    <img src="assets/img/айфон.webp" alt="iPhone 15 Pro">
+                    <h3>iPhone 15 Pro</h3>
+                    <p>Найпотужніший смартфон у лінійці Apple.</p>
+                    <a href="#" class="btn">Купити</a>
+                </article>
 
-            <article>
-                <img src="assets/img/макбук.webp" alt="MacBook Air M3">
-                <h3>MacBook Air M3</h3>
-                <p>Тонкий, легкий, надпотужний.</p>
-                <p>Ціна: 48 000 грн</p>
-                <button>Купити</button>
-            </article>
+                <article>
+                    <img src="assets/img/макбук.webp" alt="MacBook Air M2">
+                    <h3>MacBook Air M2</h3>
+                    <p>Тонкий, легкий та неймовірно швидкий ноутбук.</p>
+                    <a href="#" class="btn">Купити</a>
+                </article>
+            </div>
         </section>
     </main>
 
     <footer>
-        <section>
-            <h3>Контакти</h3>
-            <p>Телефон: +380 99 123 45 67</p>
-            <p>&copy; 2025 TechShop. Всі права захищені.</p>
-        </section>
-
-        <section>
-            <h3>Підписка</h3>
-            <form>
-                <input type="email" placeholder="Ваш email">
-                <button type="submit">Підписатися</button>
-            </form>
-        </section>
-
-        <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-        </ul>
+        <p>&copy; 2026 TechShop. Всі права захищені.</p>
+        <div class="footer-links">
+            <a href="#">Політика конфіденційності</a>
+            <a href="#">Умови використання</a>
+        </div>
     </footer>
 
 </body>
